@@ -32,8 +32,7 @@ gameInitialization();
 
 document.querySelector('.btn_roll').addEventListener('click', function(){
     if(gamePlaying){
-
-        // 1. Random umber
+        // 1. Random number
         let dice = Math.floor(Math.random() * 6) + 1;
             
         // 2. Display the result
@@ -47,7 +46,6 @@ document.querySelector('.btn_roll').addEventListener('click', function(){
             roundScore += dice;
             document.getElementById('current_' + activePlayer).textContent = roundScore;
         }else{
-            // Next player
             nextPlayer();           
         }
     }   
@@ -62,20 +60,19 @@ document.querySelector('.btn_hold').addEventListener('click', function(){
         document.getElementById('score_' + activePlayer).textContent = scores[activePlayer];
 
         // Check if player won the game
-        if(scores[activePlayer] >= 10){
+        if(scores[activePlayer] >= 100){
             document.getElementById('name_' + activePlayer).textContent = 'Winner!';
             document.querySelector('.dice').style.display = 'none';
             document.querySelector('.player_' + activePlayer + '_panel').classList.add('winner');
             document.querySelector('.player_' + activePlayer + '_panel').classList.remove('active');
             gamePlaying = false;
-           // mySound.play(); // Musice would be played when one player becomes a winner
-           document.getElementById("myAudio").play();
+            // Musice would be played when one player wins the game
+            document.getElementById("myAudio").play();
         }else{
             nextPlayer();
         }
     }
 });
-
 function nextPlayer(){
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
     roundScore = 0;
@@ -87,10 +84,7 @@ function nextPlayer(){
 
     document.querySelector('.dice').style.display = 'none';  
 }
-
-
 //document.querySelector('.btn_new').addEventListener('click', gameInitialization);
-
 
 //document.querySelector('#current_' + activePlayer).textContent = dice;
 //document.querySelector('#current_' + activePlayer).innerHTML = '<em>'+ dice +'</em>'; // emphasized text
