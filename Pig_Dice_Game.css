@@ -32,7 +32,6 @@ body{
     content: "";
     display: table;
     clear:both;
-
 }
 .final_score{
     position: absolute;
@@ -85,7 +84,6 @@ body{
     margin-top: 20px;
     margin-bottom: 10px;
     position: relative;
-
 }
 .player_score {
     text-align: center;
@@ -128,8 +126,7 @@ body{
 }
 button {
     position: absolute;
-    width: 200px;
-  
+    width: 200px; 
     left: 50%;
     transform: translateX(-50%);
     color: #555;
@@ -167,14 +164,11 @@ i {
     font-size: 26px;
     line-height: 1;
     vertical-align:sub;
-
     margin-top: -4px;
     transition: margin 0.3s;
 }
-
 .winner { 
-    background-color: #f7f7f7; 
-    
+    background-color: #f7f7f7;  
 }
 .winner .player_name { 
     font-weight: 600; 
@@ -184,7 +178,6 @@ i {
     animation-duration: 2s;
     -webkit-animation: winner infinite;
     -webkit-animation-duration: 2s;
-   
 }
 @keyframes winner{
     from {color:  #EB4D4D; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
