@@ -1,7 +1,6 @@
 # Pig Dice Game - a simple JS game
 
-
-This program is mostly the project from the vedio course named The Complete JavaScript Course 2018: Build Real Projects! @Udemy
+This project is built with reference of the course "The Complete JavaScript Course 2018: Build Real Projects!" @Udemy.com
 
 It is a simple dice game with just a single die. 
 
