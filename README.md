@@ -2,7 +2,7 @@
 
 This project is built with reference of the course "The Complete JavaScript Course 2018: Build Real Projects!" @Udemy.com
 
-It is a simple dice game with just a single die. 
+It is a simple dice game with just a single die :relaxed:
 
 You can play on GitPage https://emeraldnz.github.io/Pig-Dice-Game/
 
