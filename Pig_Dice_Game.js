@@ -88,3 +88,4 @@ function nextPlayer(){
 //document.querySelector('#current_' + activePlayer).textContent = dice;
 //document.querySelector('#current_' + activePlayer).innerHTML = '<em>'+ dice +'</em>'; // emphasized text
 //let x = document.querySelector('#score_0').textContent;
+
