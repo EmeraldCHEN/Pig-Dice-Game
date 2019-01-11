@@ -4,6 +4,8 @@ This project is built with reference of the course "The Complete JavaScript Cour
 
 It is a simple dice game with just a single die. 
 
+You can play on GitPage https://emeraldnz.github.io/Pig-Dice-Game/
+
 GAME RULES:
 - The game has 2 players, playing in rounds
 - In each turn, a player rolls a dice as many times as he/she whishes. Each result get added to his/her ROUND score
