@@ -1,6 +1,5 @@
 
 let scores, roundScore, activePlayer, dice,gamePlaying;
-//mySound = new sound("mySound.mp3"); 
 
 function gameInitialization(){   
     scores = [0, 0];
