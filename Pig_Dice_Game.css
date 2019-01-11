@@ -72,7 +72,8 @@ body{
 #dice_2{
     top: 250px;
 } 
-.ion-ios-help{
+/*.ion-ios-help */
+.material-icons{
     font-size: 2em;
     columns: rgb(240, 96, 96);
     cursor: pointer;
