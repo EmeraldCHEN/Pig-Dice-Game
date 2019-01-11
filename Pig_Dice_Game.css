@@ -80,6 +80,7 @@ body{
     position: absolute;
     right: 5%;
     top:5%;
+  transform: translateX(-50%);
 }
 .pig{
     position: absolute;
